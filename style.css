@@ -1,0 +1,557 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: fit-content;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: relative;
+    background-color: #006699;
+    overflow: hidden;
+}
+nav .traveller p{
+font-size: 30PX;
+font-weight: bold;
+float: left;
+color: white;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: black;
+    transition: all 0.4s  ease 0s;
+}
+.pic1{
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+    top:15%;
+    left: 3%;
+    height: 35%;
+    width: 40%;
+}
+.promo1 h1{
+
+right: 23%;
+top: 20%;
+position: absolute;
+overflow: hidden;
+color: rgba(24, 166, 191, 0.823);
+font-size: 40px;
+text-align: center;
+}
+.promo1 p{
+    right: 11.5%;
+    top: 30%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: justify;
+    width: 50%;
+}
+.btn{
+    bottom: 52%;
+    right: 35%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 97px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.pic2{
+    position:absolute;
+    overflow: hidden;
+    bottom :1%;
+    left: 51%;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.circle{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    margin-left: -25%;
+}
+.pic3{
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+    bottom :-63%;
+    left: 45%;
+    height: 55%;
+    width: fit-content;
+}
+.part2 h1{
+left: 4%;
+top: 108%;
+position: absolute;
+overflow: hidden;
+color: rgba(24, 166, 191, 0.823);
+font-size: 40px;
+width: 25%;
+text-align: justify;
+}
+.part2 p{
+    left: 4%;
+    top: 125%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: justify;
+    width: 30%;
+}
+.dwn{
+    top: 150%;
+    left: 15%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 115px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+    border: 0;
+}
+.part3 h1{
+left: 40%;
+top: 170%;
+position: absolute;
+overflow: hidden;
+color: rgba(24, 166, 191, 0.823);
+font-size: 40px;
+width: 25%;
+text-align: justify;
+}
+.part3 p{
+    left: 33%;
+    top: 178%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+}
+.pic4{
+    position:absolute;
+    overflow: hidden;
+    top :200%;
+    left: 4%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.pic5{
+    position:absolute;
+    overflow: hidden;
+    top :193%;
+    left: 36%;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.pic6{
+    position:absolute;
+    overflow: hidden;
+    top :200%;
+    left: 79%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.k{
+    left: 9%;
+    top: 245%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: justify;
+    width: 25%;
+}
+.lak{
+    left: 83.4%;
+    top: 245%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: justify;
+    width: fit-content;
+}
+.raj{
+    left: 43.4%;
+    top: 245%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: justify;
+    width: 25%;
+}
+.gn{
+    top: 250%;
+    left: 45%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: fit-content;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.part4 img{
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+    top: 260%;
+    left: 4%;
+    height: 70%;
+    width: 18%;
+    border-radius: 130px 130px 130px 130px;
+}
+.part4 h1{
+left: 50%;
+top: 265%;
+position: absolute;
+overflow: hidden;
+color: rgba(24, 166, 191, 0.823);
+font-size: 40px;
+width: 25%;
+text-align: justify;
+}
+.part4 p{
+    left: 30%;
+    top: 275%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+}
+.rm{
+    top: 308%;
+    left: 53%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 97px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.pic7{
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+    top: 340%;
+    left: 4%;
+    height: 30%;
+    width: 30%;
+}
+.pic9{
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+    top: 340%;
+    left: 34%;
+    height: 30%;
+    width: 30%;
+}
+.pic8{
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    top: 340%;
+    left: 63%;
+    height: 30%;
+    width: 30%;
+}
+.rm2{
+    top: 375%;
+    left: 46%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 97px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.pic10 img{
+    position:absolute;
+    overflow: hidden;
+    top :435%;
+    left: 53%;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.pic10 h1{
+    left: 5%;
+    top: 390%;
+    position: absolute;
+    overflow: hidden;
+    color: rgba(24, 166, 191, 0.823);
+    font-size: 40px;
+    width: 14.9%;
+    text-align: justify;
+    }
+.pic10 p{
+    left: 5%;
+    top: 407%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: left;
+    width: 25%;
+}
+.rm3{
+    top: 423%;
+    left: 5%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 97px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.pic11{
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    top: 390%;
+    left: 65%;
+    height: 100%;
+    width: 22%;
+    clip-path: inset(50%); 
+    clip-path: circle(50%);
+    clip-path: ellipse(50%);
+    clip-path: polygon(50%);
+}
+.contact h1{
+left: 35%;
+top: 490%;
+position: absolute;
+overflow: hidden;
+color: rgba(24, 166, 191, 0.823);
+font-size: 40px;
+width: 25%;
+text-align: center;
+}
+.contact p{
+    left: 33%;
+    top: 498%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+}
+.contact img{
+    top: 510%;
+    left: 17%;
+    display: flex;
+    position:absolute;
+    overflow: hidden;
+}
+.ct{
+    top: 575%;
+    left: 44%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 97px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.fill form{
+    top: 583%;
+    left: 55%;
+    background-color: rgba(24, 166, 191, 0.823);;
+    border: 25px;
+    overflow: hidden;
+    position: absolute;
+    font-size: medium;
+    width:40%;
+    height: fit-content;
+    color: white;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#m{
+    margin-top: 10px;
+}
+#msg{
+    width: 560px;
+    height: 150px;
+}
+.fill p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.fill input, textarea{    
+    border: 2px solid white;
+    background-color: transparent;
+    margin-left: 20px;
+}
+.fill input, textarea::placeholder{
+    color: white;
+}
+.name{
+    justify-content: space-between;
+}
+.fill form sup{
+    color: red;
+}
+.fill button{
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    margin: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: medium;
+    cursor: pointer;
+}
+.label{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+  }
+.name input,.contact input{
+    width:300px;
+    height:35px;
+    margin-left: 21px;
+}
+.sub h1{
+    left: 3%;
+    top: 592%;
+    position: absolute;
+    overflow: hidden;
+    color: rgba(24, 166, 191, 0.823);
+    font-size: 40px;
+    width: 25.5%;
+    text-align: left;
+}
+.sub p{
+    left: 3%;
+    top: 608%;
+    position: absolute;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: left;
+    width: 30%;
+}
+.subs{
+    top: 628%;
+    left: 11.5%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(24, 166, 191, 0.823);
+    size: 30px;
+    cursor: pointer;
+    width: 106px;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    border: 0;
+}
+.endpage{
+    width: 100%;
+    height: 70vh;
+    background-color: #006699;
+    top: 650%;
+    position: absolute;
+}
+.endpage p{
+    color: white;
+    margin: 60px;
+    font-size: 20px;
+    
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    height: fit-content;
+    position: absolute;
+    overflow: hidden;
+    top: 668%;
+    left: 4%;
+}
+.last p{
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.emp{
+    background-color: white;
+    height: 1px;
+    width: 93%;
+    position: absolute;
+    top: 707%;
+    left: 4%;
+}
+#ca{
+    top: 713%;
+    position: absolute;
+    overflow: hidden;
+    color: white;
+    font-size: 13px;
+    left: 4%;
+}
